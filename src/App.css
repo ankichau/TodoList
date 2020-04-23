@@ -1,0 +1,42 @@
+.add {
+  background-color: #013e3e;
+  min-height: 500px;
+  width: 600px;
+  margin: 40px auto;
+  box-shadow: 2px 2px 2px burlywood;
+}
+#to-do-form input {
+  background-color: burlywood;
+  padding: 0 20px;
+  border: 0;
+  height: 50px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.list {
+  margin: 10px;
+  width: 310px;
+  position: relative;
+  left: 15%;
+}
+.lists {
+  margin-top: 20px;
+  animation: fadeIn ease 0.5s;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 10%;
+  }
+  100% {
+    opacity: 20%;
+  }
+}
+.delete {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
